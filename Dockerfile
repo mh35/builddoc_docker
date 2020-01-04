@@ -7,3 +7,4 @@ RUN apt-get install -y nodejs
 RUN apt-get install -y gcc g++ make
 COPY build.sh /
 RUN chmod a+x /build.sh
+RUN npm install -g gulp
