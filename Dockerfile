@@ -10,3 +10,4 @@ RUN chmod a+x /build.sh
 RUN npm install -g gulp
 RUN apt-get install -y git
 RUN apt-get install -y openssh-client openssh-server
+RUN npm install -g @vivliostyle/cli
