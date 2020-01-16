@@ -12,6 +12,7 @@ RUN apt-get install -y git
 RUN apt-get install -y openssh-client openssh-server
 RUN npm install -g @vivliostyle/cli
 RUN apt-get install -y gnupg
+RUN apt-get install -y language-pack-??
 RUN curl -sL https://dl.google.com/linux/linux_signing_key.pub | \
 apt-key add -
 RUN wget -q \
